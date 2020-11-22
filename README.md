@@ -1,7 +1,9 @@
 # Sentiment Analysis NLP Pipeline
 
 ## Architecture
-<img src="assets/images/architecture.jpg" width="480" height="320" align="centre">
+<img src="assets/images/architecture.jpeg" align="centre">
+
+**Note**: The project is in development and is constantly evolving. Feel free to star and watch the repo.
 
 ### Overview
 Explain the purpose of the project, what was achieved/contributions. Data sources. Results. Numbers/facts about the project.
