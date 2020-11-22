@@ -25,8 +25,8 @@ be a multi-domain Sentiment Analysis dataset.<br/>
 	6. Capable of processing TBs of data per day on AWS.
 
 - **How to use the project:**
-	1. If you are interested in Data Engineering, please focus on [Infrastructrue](#setup-infrastructure-[local/aws]) and Data Pipeline (prepare/processing) part.
-	2. If you are interested in NLP, please focus on [Infrastructure](#setup-local-mode) and ML Pipeline part
+	1. If you are interested in Data Engineering, please focus on [Infrastructrue](#setup-infrastructure) and Data Pipeline (prepare/processing) part.
+	2. If you are interested in NLP, please focus on [Infrastructure](#setup-infrastructure) and ML Pipeline part
 
 **Note** that this is not an academic project and the main goal is not improving current state-of-the-art Sentiment Analysis results. Rather, this is a practical and 
 educational project to showcase how to develop and deploy a large-scale Data/ML pipeline on AWS. Also, this is a capstone project as a graduation prerequisite for my Udacity 
@@ -41,7 +41,7 @@ TODOs: add reference <sup>superscript</sup>
 Project contents and file structures.
 Explain what files are in this repo and what they do.
 
-## Setup Infrastructure [Local/AWS]
+## Setup Infrastructure
 Step 0. Download Datasets
 Step 1. Local mode => link to section
 Step 2. AWS production mode => link to section
@@ -54,12 +54,12 @@ Step 2. AWS production mode => link to section
 On your own local machine (for exploration and testing) => link to section
 Steps....
 
-### Setup AWS [costly]
+### Setup AWS
 On AWS Environment (for large-scale deployment and production, costly) => link to section
 Steps....
 
 
-## How to Run [Local/AWS]
+## How to Run
 
 ### Run Locally
 how to start airflow
@@ -67,7 +67,7 @@ how to run scripts
 how to monitor pipeline
 how to see results
 
-### Run on AWS [costly]
+### Run on AWS
 
 
 ## Results
