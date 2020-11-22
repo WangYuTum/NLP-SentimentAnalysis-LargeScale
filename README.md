@@ -21,18 +21,19 @@ be a multi-domain Sentiment Analysis dataset.<br/>
 	2. The new dataset contains 200s millions of records (where each record consists of a text and a sentiment label).
 	3. A cloud-native NLP Machine Learning Pipeline that is ready to be deployed in a large-scale Spark Cluster to predict sentiment labels for texts.
 	4. Fully reproducible (on your local machine and on AWS) and open source
-	5. [Nearly] production-ready pipeline with schedule and monitor capabilities.
-	6. Capable of processing TBs of data on AWS.
+	5. [Nearly] production-ready pipeline with scheduling and monitoring capabilities.
+	6. Capable of processing TBs of data per day on AWS.
 
 - **How to use the project:**
-	1. If you are interested in Data Engineering, please focus on Infrastructrue and Data Pipeline (prepare/processing) part.
-	2. If you are interested in NLP, please focus on Infrastructure and ML Pipeline part
+	1. If you are interested in Data Engineering, please focus on [Infrastructrue](#setup-infrastructure-[Local/AWS]) and Data Pipeline (prepare/processing) part.
+	2. If you are interested in NLP, please focus on [Infrastructure](#setup-local-mode) and ML Pipeline part
 
 **Note** that this is not an academic project and the main goal is not improving current state-of-the-art Sentiment Analysis results. Rather, this is a practical and 
-educational project to showcase how to develop and deploy a large-scale Data/ML pipeline on AWS. Also, this is a capstone project as a graduation prerequisite for Udacity 
-Data Engineer Nanodegree.
+educational project to showcase how to develop and deploy a large-scale Data/ML pipeline on AWS. Also, this is a capstone project as a graduation prerequisite for my Udacity 
+Data Engineer Nanodegree but I hope it will become more.
 
 TODOs: add links, add Common Crawl. 
+TODOs: add reference <sup>superscript</sup>
 
 ### Pipeline 
 
@@ -79,3 +80,5 @@ def myfunc():
 ```
 
 <br    ><img src="assets/images/architecture.jpg" width="480" height="320" align="centre">
+
+### References/Links
