@@ -25,7 +25,7 @@ be a multi-domain Sentiment Analysis dataset.<br/>
 	6. Capable of processing TBs of data per day on AWS.
 
 - **How to use the project:**
-	1. If you are interested in Data Engineering, please focus on [Infrastructrue](#setup-infrastructure-[Local/AWS]) and Data Pipeline (prepare/processing) part.
+	1. If you are interested in Data Engineering, please focus on [Infrastructrue](#setup-infrastructure-[local/aws]) and Data Pipeline (prepare/processing) part.
 	2. If you are interested in NLP, please focus on [Infrastructure](#setup-local-mode) and ML Pipeline part
 
 **Note** that this is not an academic project and the main goal is not improving current state-of-the-art Sentiment Analysis results. Rather, this is a practical and 
