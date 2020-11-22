@@ -1,0 +1,54 @@
+### Feature extractions
+* extract features from a text, feature such as:
+	- bag of words
+	- Word2Vec
+	- Glove
+	- FastText model for word embeddings
+
+
+### Tasks:
+* Sentiment Analysis
+
+
+
+### Data Pipeline:
+1. Get raw texts
+2. Tokenize
+3. Clean: remove stop words/punctuation/numeric-string
+4. [Optional] Stem: reduce word to base-form, faster, primitive, less accurate
+	- reduce the corpus of words
+5. [Optional] Lemmatize: reduce word to base-form, slower, advanced, more accurate
+6. Vectorize: convert to numeric values
+	- word2vec: advanced features
+	- countVectorize
+	- n-gram: unigram is simplest
+	- TF-IDF: important but seldom used words
+	* Need to compute/count all appeared words in corpus (Training set)
+	* The vectorizor will fit the entire TrainSet and then be used to 
+		produce the same feature vector for test documents (but it will only consider words appeared in TrainSet)
+	* The result is a sparse matrix
+	* [Optional] Remove rarely appeared words/features
+7. Get basic stats & distribution in data to:
+	- Normalise data: Box-cox power transform
+	- [Optional] Transform: PCA, SVD, ...
+	- Ensemble different features: Add/Remove new feature dimensions
+		* percentage of punctuation over text_len (! ? .)
+		* length of text
+6. ML train
+	- Use Train/Test split 
+	- Or use grid search with K-Fold validation
+
+
+### Training Sets
+
+
+
+### Work Flow
+1. Get Sample Data on Local Machine
+2. Install all related Packages on Local Machine
+3. Experiment using Notebooks
+4. Setup Infrastructure Script (small clusters)
+5. Load Sample Data to AWS (small clusters)
+6. Experiment on AWS; Test entire Pipeline
+7. Load entire Dataset on AWS
+8. Setup large clusters on AWS and run the pipeline

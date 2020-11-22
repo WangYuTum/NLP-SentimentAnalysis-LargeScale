@@ -1,0 +1,9 @@
+.DS_Store
+__pycache__/
+.ipynb_checkpoints/
+data
+*.log
+amazon-review-data/
+common-crawl-data/
+tweets-sentiment140-data/
+covid-data/
