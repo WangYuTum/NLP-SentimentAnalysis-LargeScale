@@ -7,13 +7,13 @@
 **Note**: The project is in development and is constantly evolving. Feel free to star and watch the repo.
 
 ### Overview
-- **Purpose**: To build a dataset from multiple sources for NLP Sentiment Analysis Tasks and train a Machine Learning model on the newly 
+- **Purpose**: To build a dataset from multiple sources for [NLP Sentiment Analysis Tasks](https://en.wikipedia.org/wiki/Sentiment_analysis) and train a Machine Learning model on the newly 
 built dataset. Although there exists some datasets, they are "small" (under 100MB) and "old" (2000s) and heavily focus on production/user reviews. There are very few large public datasets that focus on general Sentiment Analysis. Therefore, I decided to combine some of the few high quality datasets to produce a larger one. The final dataset will 
 be a multi-domain Sentiment Analysis dataset.<br/>
 
 - **Data Sources**: 
-	1. Sentiment140. The dataset captures 1.6 million tweets where each tweet is associated with a sentiment label. The label is not produced by human annotators, but via analyzing emoticons. Total size: 200s MB.
-	2. Amazon Review Data 2018. The dataset contains 200s millions of user/product reviews where each review is associated with a rating score. Total size: 30s GB.
+	1. [Sentiment140](https://www.kaggle.com/datasets?search=text+classification)<sup>[[2]](#references)</sup>. The dataset captures 1.6 million tweets where each tweet is associated with a sentiment label. The label is not produced by human annotators, but via analyzing emoticons. Total size: 200s MB.
+	2. [Amazon Review Data 2018](https://nijianmo.github.io/amazon/index.html)<sup>[[3]](#eferences)</sup>. The dataset contains 200s millions of user/product reviews where each review is associated with a rating score. Total size: 30s GB.
 	3. More will come as the project evolves. 
 
 - **Contributions**:
@@ -29,11 +29,10 @@ be a multi-domain Sentiment Analysis dataset.<br/>
 	2. If you are interested in NLP, please focus on [Infrastructure](#setup-infrastructure) and ML Pipeline part
 
 **Note** that this is not an academic project and the main goal is not improving current state-of-the-art Sentiment Analysis results. Rather, this is a practical and 
-educational project to showcase how to develop and deploy a large-scale Data/ML pipeline on AWS. Also, this is a capstone project as a graduation prerequisite for my Udacity 
-Data Engineer Nanodegree but I hope it will become more.
+educational project to showcase how to develop and deploy a large-scale Data/ML pipeline on AWS. Also, this is a capstone project as a graduation prerequisite for my [Udacity 
+Data Engineer Nanodegree](https://www.udacity.com/course/data-engineer-nanodegree--nd027) but I hope it will become more.
 
-TODOs: add links, add Common Crawl. 
-TODOs: add reference <sup>superscript</sup>
+TODOs: add Common Crawl. 
 
 ### Pipeline 
 
@@ -81,4 +80,7 @@ def myfunc():
 
 <br    ><img src="assets/images/architecture.jpg" width="480" height="320" align="centre">
 
-### References/Links
+## References
+1. [LucidChart](www.lucidchart.com): To generate diagrams.
+2. [Sentiment140](https://www.kaggle.com/datasets?search=text+classification). **Twitter sentiment classification using distant supervision. CS224N Project Report, Stanford, 1(2009), p.12**, *Go, A., Bhayani, R. and Huang, L., 2009*. 
+3. [Amazon Review Data 2018](https://nijianmo.github.io/amazon/index.html). **Justifying recommendations using distantly-labeled reviews and fined-grained aspects**, *Jianmo Ni, Jiacheng Li, Julian McAuley*. Empirical Methods in Natural Language Processing (EMNLP), 2019
