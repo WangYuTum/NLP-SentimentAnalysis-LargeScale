@@ -13,7 +13,7 @@ be a multi-domain Sentiment Analysis dataset.<br/>
 
 - **Data Sources**: 
 	1. [Sentiment140](https://www.kaggle.com/datasets?search=text+classification)<sup>[[2]](#references)</sup>. The dataset captures 1.6 million tweets where each tweet is associated with a sentiment label. The label is not produced by human annotators, but via analyzing emoticons. Total size: 200s MB.
-	2. [Amazon Review Data 2018](https://nijianmo.github.io/amazon/index.html)<sup>[[3]](#eferences)</sup>. The dataset contains 200s millions of user/product reviews where each review is associated with a rating score. Total size: 30s GB.
+	2. [Amazon Review Data 2018](https://nijianmo.github.io/amazon/index.html)<sup>[[3]](#references)</sup>. The dataset contains 200s millions of user/product reviews where each review is associated with a rating score. Total size: 30s GB.
 	3. More will come as the project evolves. 
 
 - **Contributions**:
