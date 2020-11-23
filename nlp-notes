@@ -34,9 +34,15 @@
 	- Ensemble different features: Add/Remove new feature dimensions
 		* percentage of punctuation over text_len (! ? .)
 		* length of text
-6. ML train
+	- Seperate Features and Labels
+6. Build ML model and estimator/validator
 	- Use Train/Test split 
 	- Or use grid search with K-Fold validation
+7. Train
+	- train and tune model using grid-search/k-fold validation
+8. Test
+	- test on holdout data
+9. Save model
 
 
 ### Training Sets
